@@ -80,7 +80,7 @@ color: #fff;
 /* animates zoom effect on loading page */
 animation-name: hero-zoom;
 animation-duration: 5s;
-anmiation-fill-mode: forwards;
+animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
@@ -235,4 +235,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%
 }
